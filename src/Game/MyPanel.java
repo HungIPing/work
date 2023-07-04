@@ -43,7 +43,7 @@ public class MyPanel extends JPanel implements ActionListener {
             e.printStackTrace();
         }
 
-        Birdx = 15;
+        Birdx = 250;
         Birdy = 120;
         initialVelocityY = -2;
         gravity = 0.08;

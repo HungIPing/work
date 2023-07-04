@@ -3,21 +3,25 @@ package Game;
 import java.awt.BorderLayout;
 
 import Game.MyPanel;
+import Game.MyPillar;
 import javax.swing.JFrame;
 
 
 
 public class BirdGame extends JFrame{
 	private MyPanel myPanel;
+	private MyPillar myPillar;
 
 	
 	public BirdGame() {
         setLayout(new BorderLayout());
 
         myPanel = new MyPanel();
-
-
         add(myPanel, BorderLayout.CENTER);
+        
+ //       myPillar = new MyPillar();
+ //       add(myPillar,BorderLayout.NORTH);
+        
        
 		
 		setTitle("BirdGame");
